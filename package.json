@@ -1,12 +1,21 @@
 {
     "name": "@dorakemon/eslint-config-dorakemon",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index.js",
     "license": "MIT",
+    "keywords": [
+      "eslint",
+      "eslint-config",
+      "typescript",
+      "react"
+    ],
     "publishConfig": {
       "access": "public",
       "registry": "https://registry.npmjs.org/"
-    },    
+    },
+    "scripts": {
+      "publish": "npm publish --access public"
+    },  
     "dependencies": {
       "@typescript-eslint/eslint-plugin": "^7.0.2",
       "@typescript-eslint/parser": "^7.0.2",
